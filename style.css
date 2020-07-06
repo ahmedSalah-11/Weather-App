@@ -1,0 +1,102 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    color: white;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.location,.tempreture{
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location{
+    height: 25vh;
+    margin-bottom: 20px;
+    
+}
+.tempreture{
+    flex-direction: column;
+    
+}
+.tempreture-degree{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.unit{
+    margin-left: 5px;
+    font-size: 25px;
+}
+.degree{
+    font-size: 40px;
+}
+.wind{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.wind h1{
+    font-size: small;
+}
+#icon{
+    margin-left: 10px;
+    width: 160%;
+
+}
+#city-2-icon,#city-3-icon,#city-1-icon{
+    margin-right: 10px;
+ 
+    width: 160%;
+
+}
+.description{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.tempreture-description{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    align-items: center;
+}
+.wind-speed,.pressure,.pressure-section{
+    font-size: medium;
+    
+    color: oldlace;
+}
+.city h1{
+    font-size: 20px;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 40px;
+}
+.cities-container{
+    margin-top: 20px;
+display: flex;
+flex-direction: row;
+
+}
+
